@@ -1,0 +1,21 @@
+{
+  "name": "assignemt_final",
+  "version": "1.0.0",
+  "description": "Fashion House Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm install  && cd ../server && npm install && npm run server",
+    "start": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JifAmeen/Fashion-House.git"
+  },
+  "author": "Amaan Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JifAmeen/Fashion-House/issues"
+  },
+  "homepage": "https://github.com/JifAmeen/Fashion-House#readme"
+}
